@@ -2899,7 +2899,6 @@
   };
 
   Terminal.prototype.handler = function(data) {
-    console.log('data', data);
     this.emit('data', data);
   };
 
